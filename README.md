@@ -3,7 +3,7 @@
 
 
 <p><em>
-Computer Engineering Student 💻<br>
+Computer Engineering Student<br>
 Faculty of Engineering – Computer Department
 </em></p>
 
@@ -13,11 +13,14 @@ Faculty of Engineering – Computer Department
 
 ```javascript
 const yasmin = {
-  pronouns: "her",
+  role: "Computer Engineering Student",
   
-  frontEnd: ["HTML", "CSS", "JavaScript"],
+  interests: ["Web Development", "Software Engineering"],
   
-  programmingLanguages: ["Python", "C++", "C"],
+  techStack: {
+    frontEnd: ["HTML", "CSS", "JavaScript"],
+    languages: ["Python", "C++", "C"]
+  },
   
   currentlyLearning: ["Advanced JavaScript", "ES6+", "TypeScript"],
   
